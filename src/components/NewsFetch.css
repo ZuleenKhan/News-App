@@ -1,0 +1,11 @@
+@media only screen and (min-width: 800px) {
+    .body-container{
+        grid-template-columns: repeat(1,100%);       
+ 
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .body-container {
+        grid-template-columns: repeat(2,50%);
+    }
+}
